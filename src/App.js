@@ -6,11 +6,13 @@ import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
 import Technologies from "./Pages/Technologies";
+import { Link } from "react-router-dom";
 function App() {
   return (
     <Router>
       <Header />
       <Routes>
+      
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />

@@ -35,15 +35,15 @@ export const logos = {
 
 // Enter your Personal Details here
 export const personalDetails = {
-  name: "Pavan MG",
-  tagline: "I build things for web",
+  name: "Mohit Jethva",
+  tagline: "I Build Things for Web",
   img: profile,
-  about: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.`,
+  about: `Hi, I’m Mohit Jethva, a Computer Engineering student passionate about web development, AI/ML, and building creative tech solutions. I love transforming complex ideas into clean, intuitive designs.I've built projects ranging from responsive websites to AI-driven tools using React, Node.js, MongoDB, and Python. I'm constantly learning and enjoy collaborating on meaningful projects.Beyond coding, I explore geopolitics, share knowledge, and experiment with new technologies.`,
 };
 
 // Enter your Social Media URLs here
 export const socialMediaUrl = {
-  linkdein: "https://www.linkedin.com/",
+  linkdein: "https:www.linkedin.com/in/mohit-jethva24",
   github: "https://www.github.com/",
   twitter: "https://twitter.com/",
   instagram: "https://www.instagram.com/",
@@ -52,43 +52,38 @@ export const socialMediaUrl = {
 // Enter your Work Experience here
 export const workDetails = [
   {
-    Position: "Frontend Web Developer",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
+    Position: "Web Developer Intern",
+    Company: `CodeWithMahesh`,
+    Location: "Amravati (Virtual Internship)",
+    Type: "Internship",
+    Duration: "Dec 2024 - Feb 2025",
+  },
+  {
+    Position: "Computer Hardware Assistant",
+    Company: `Navkar Infotech`,
+    Location: "Nashik",
     Type: "Full Time",
-    Duration: "Sep 2021 - Dec 2021",
+    Duration: "Feb 2022 - June 2022",
+   
   },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
-  {
-    Position: "Internship",
-    Company: `Company Name here`,
-    Location: "Bengaluru",
-    Type: "Internship",
-    Duration: "Sep 2021 - Dec 2021",
-  },
+  
 ];
 
 // Enter your Education Details here
 export const eduDetails = [
   {
-    Position: "Frontend Development",
-    Company: "Udemy, YouTube, Google, Medium",
-    Location: "Online",
-    Type: "Full Time",
-    Duration: "Jan 2022 - Present",
+    Position: "Bachleor's in Computer Engineering",
+    Company: "R H Sapat College Of Engineering",
+    Location: "Nashik",
+    
+    Duration: "June 2022 - Present",
   },
   {
-    Position: "Bachelor in Electronics & Communication",
-    Company: `Your College Name here`,
-    Location: "Bengaluru",
-    Type: "Full Time",
-    Duration: "Aug 2020 - Present",
+    Position: "Higher Secondary School",
+    Company: `H.P.T. Arts & R.Y.K. Science College`,
+    Location: "Nsshik",
+    
+    Duration: "June 2020 - March 2022",
   },
 ];
 
@@ -113,63 +108,62 @@ export const techStackDetails = {
 // Enter your Project Details here
 export const projectDetails = [
   {
-    title: "Project title 1",
+    title: "3-D Portfolio Website",
     image: projectImage1,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    description: `Developed a fully interactive 3D portfolio website using React and Three.js to create immersive 3D 
+animations and model rendering. `,
+    techstack: "React,Taiwaind CSS, Three.js",
+    previewLink: "https://andrewjens.netlify.app/",
+    githubLink: "https://github.com/Mohitjethva24/3D-portfolio",
   },
   {
     title: "Project title 2",
     image: projectImage2,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
+    description: `Built a responsive platform to compare ChatGPT, Gemini, and DeepSeek on accuracy, cost, and performance. `,
     techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
+    previewLink: "https://aiselect.netlify.app/",
+    githubLink: "https://github.com/Mohitjethva24/aiselect",
   },
-  {
-    title: "Project title 3",
-    image: projectImage3,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 4",
-    image: projectImage4,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 5",
-    image: projectImage5,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
-  {
-    title: "Project title 6",
-    image: projectImage6,
-    description: `This is sample project description random things are here in description This is sample
-project lorem ipsum generator for dummy content`,
-    techstack: "HTML/CSS, JavaScript",
-    previewLink: "https://google.com",
-    githubLink: "https://github.com",
-  },
+//   {
+//     title: "Project title 3",
+//     image: projectImage3,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
+//   {
+//     title: "Project title 4",
+//     image: projectImage4,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
+//   {
+//     title: "Project title 5",
+//     image: projectImage5,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
+//   {
+//     title: "Project title 6",
+//     image: projectImage6,
+//     description: `This is sample project description random things are here in description This is sample
+// project lorem ipsum generator for dummy content`,
+//     techstack: "HTML/CSS, JavaScript",
+//     previewLink: "https://google.com",
+//     githubLink: "https://github.com",
+//   },
 ];
 
 // Enter your Contact Details here
 export const contactDetails = {
-  email: "hi@example.com",
-  phone: "+91 12345 67890",
+  email: "Mohitjethva24@gmail.com",
+  phone: "+91 7410177783",
 };
